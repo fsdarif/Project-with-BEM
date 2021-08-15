@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+    width: 1000px;
+    margin:  auto;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+.btn{
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: .3s;
+    &.btn--tomato{
+    background-color: tomato;
+        &:hover{
+        color: teal;
+        }
+    }
+    &.btn--tan{
+        background-color: tan;
+        &:hover{
+        color: teal;
+        }
+    }
+    &.btn--violet{
+        background-color: violet;
+        &:hover{
+            color: teal;
+        }
+    }
+}
+
+/* header css */
+
+.header {
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    &__logo {
+        flex-basis: 15%;
+      }
+    &__menu {
+        flex-basis: 80%;
+      }
+    &__menu-box {
+        display: flex;
+        justify-content: flex-end;
+      }
+    &__menu-link {
+        font-size: 18px;
+        padding-left: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333;
+        transition: .3s;
+        &:hover{
+            color: tomato;
+        }
+      }
+  }
+
+  .banner{
+      margin-bottom: 30px;
+      &__img {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+  }
+
+.service{
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        margin: 45px 0;
+      }
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+    &__single {
+        flex-basis: 32%;
+        background-color: teal;
+        padding: 20px;
+      }
+    &__heading {
+        font-size: 20px;
+        text-transform: capitalize;
+        color: white;
+        margin-bottom: 20px;
+      }
+    &__info {
+        color: white;
+        margin-top: 20px;
+      }
+    &__link {
+        margin-top: 20px;
+        
+    }
+}
+
+.box-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    &__left {
+        flex-basis: 60%;
+      }
+      &__desc {
+        line-height: 25px;
+        margin-bottom: 15px;
+      }
+      &__menu-link {
+        margin: 20px 0;
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 25px;
+        transition: .3s;
+        &:hover{
+            color: violet;
+        }
+      }
+      &__menu-item {
+      }
+  }
+
+
+  
+.contact {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__form {
+        flex-basis: 40%;
+      }
+    &__address {
+        flex-basis: 40%;
+      }
+    &__address-list {
+        display: inline-block;
+        padding-bottom: 20px;
+        font-size: 20px;
+        transition: .3s;
+      }
+    &__address-box {
+        display: flex;
+        flex-direction: column;
+      }
+    &__address-list:hover {
+        color: tomato;
+      }
+    &__input {
+        width: 100%;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    &__message {
+        width: 100%;
+      }
+  }
+  .\.contact__submit {
+    width: auto;
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .map iframe {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 16px;
+    background-color: tomato;
+    padding: 10px 0;
+  }
+  
